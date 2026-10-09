@@ -12,7 +12,7 @@ We provide security updates for the current active release line (`main` branch) 
 | :--- | :--- | :--- |
 | `komikhq/api` | Yes | Deployed edge endpoints and `main` branch |
 | `komikhq/komikhq` | Yes | Production frontend releases and `main` branch |
-| `komikhq/komikhq-clipper` | Yes | Latest extension build / stable branch |
+| `komikhq/komikhq-clipper` | Yes | Official browser extension for Chromium and Firefox (latest release and `main` branch) |
 | Legacy / Deprecated Archives | No | Historical reference only |
 
 ---
