@@ -1,0 +1,40 @@
+name: Feature Request
+description: Suggest an idea, architectural improvement, or new feature.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an improvement. Please provide context on the problem this feature solves.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: Is your feature request related to a specific limitation or problem?
+      placeholder: A clear and concise description of the challenge or limitation...
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Solution
+      description: Describe the solution or capability you would like to see implemented.
+      placeholder: Describe the desired behavior or API design...
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions or workarounds you considered.
+      placeholder: Describe other approaches explored...
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any mockups, architectural notes, or reference links.
+      placeholder: Links, documentation, or references...
+    validations:
+      required: false

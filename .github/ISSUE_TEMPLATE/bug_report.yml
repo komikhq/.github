@@ -1,0 +1,56 @@
+name: Bug Report
+description: Create a report to help us reproduce, identify, and resolve an issue.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue. Please ensure your report is clear and reproducible.
+        If this is a security-sensitive issue, please consult our [Security Policy](https://github.com/komikhq/.github/blob/main/SECURITY.md) instead.
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is.
+      placeholder: Describe the problem...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Detailed steps explaining how to trigger the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen instead?
+      placeholder: Describe expected result...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and Context
+      description: Relevant device, browser, operating system, runtime, or dependency version.
+      placeholder: |
+        - OS: [e.g., macOS, Ubuntu, Windows]
+        - Browser / Runtime: [e.g., Chrome, Cloudflare Workers, Node 22]
+        - Version / Commit: [e.g., v1.2.0 or commit hash]
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context and Logs
+      description: Attach error messages, stack traces, or logs.
+      placeholder: Paste logs or stack traces here...
+    validations:
+      required: false
